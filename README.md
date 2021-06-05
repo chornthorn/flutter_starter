@@ -12,7 +12,7 @@
     flutter build apk -t lib/main_dev.dart  --flavor=dev
 
 # Run app in `prod` Production Mode
-    flutter run -t lib/main_dev.dart  --flavor=prod 
+    flutter run -t lib/main.dart  --flavor=prod 
 ## Run app in debug mode (Picks up debug signing config)
     flutter run -t lib/main.dart  --debug --flavor=prod
 ## Run app in release mode (Picks up release signing config)
