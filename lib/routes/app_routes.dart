@@ -1,6 +1,6 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor/views/screens/home/home_screen.dart';
+import '../views/screens/home/home_screen.dart';
 
 Route generateRoute(RouteSettings routeSettings) {
   final args = routeSettings.arguments;

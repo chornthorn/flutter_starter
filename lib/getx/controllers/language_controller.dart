@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor/utils/constants/constants.dart';
+import '../../utils/constants/constants.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'dart:ui' as ui;

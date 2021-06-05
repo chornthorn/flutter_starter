@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor/config/flavors/flavor_config.dart';
-import 'package:flutter_flavor/getx/controllers/controllers.dart';
-import 'package:flutter_flavor/utils/constants/constants.dart';
-import 'package:flutter_flavor/views/widgets/widgets.dart';
+import '../../../config/flavors/flavor_config.dart';
+import '../../../getx/controllers/controllers.dart';
+import '../../../utils/constants/constants.dart';
+import '../../widgets/widgets.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:get/get.dart';
 

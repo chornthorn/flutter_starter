@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor/views/screens/settings/setting_screen.dart';
+
+import '../settings/setting_screen.dart';
 import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
