@@ -10,7 +10,7 @@ void main() {
 
 Future updateLocalizationFile() async {
   //the document id for your google sheet
-  String documentId = "1oS7iJ6ocrZBA53SxRfKF0CG9HAaXeKtzvsTBhgG4Zzk";
+  String documentId = "1hhB4nOjgZ_NwH6wq_uT7hHnwg3LIefI6tKgw3z74kgA";
   //the sheetid of your google sheet
   String sheetId = "0";
 

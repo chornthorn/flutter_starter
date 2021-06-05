@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor/views/settings/settings_ui.dart';
+import 'package:flutter_flavor/views/screens/settings/setting_screen.dart';
 import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.settings),
             onPressed: () {
-              Get.to(SettingsUI());
+              Get.to(SettingsScreen());
             },
           ),
         ],
