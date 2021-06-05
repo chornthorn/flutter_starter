@@ -8,8 +8,8 @@ class FlavorConfig {
   final Map<String, dynamic> variables;
   final BannerLocation location;
   final String name;
-  static FlavorConfig _instance;
-  static FlavorConfig get instance => _instance;
+  static FlavorConfig? _instance;
+  static FlavorConfig? get instance => _instance;
 
   FlavorConfig._internal(
     this.environment,
@@ -24,7 +24,7 @@ class FlavorConfig {
     Color color: Colors.red,
     BannerLocation location: BannerLocation.topStart,
     String name: "",
-    @required final Map<String, dynamic> variables,
+    required final Map<String, dynamic> variables,
   }) {
     _instance ??= FlavorConfig._internal(
       environment,
@@ -33,7 +33,7 @@ class FlavorConfig {
       location,
       name,
     );
-    return _instance;
+    return _instance!;
   }
 
   @override
