@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.settings),
             onPressed: () {
-              Get.to(SettingsScreen());
+              Get.to(() => SettingsScreen());
             },
           ),
         ],

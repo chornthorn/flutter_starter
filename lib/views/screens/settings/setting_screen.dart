@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_flavor/config/flavors/flavor_config.dart';
 import 'package:flutter_flavor/getx/controllers/controllers.dart';
 import 'package:flutter_flavor/utils/constants/constants.dart';
-import 'package:flutter_flavor/views/components/components.dart';
-import 'package:flutter_flavor/views/components/segmented_selector.dart';
+import 'package:flutter_flavor/views/widgets/widgets.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:get/get.dart';
 

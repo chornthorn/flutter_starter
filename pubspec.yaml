@@ -18,6 +18,7 @@ dependencies:
   get_storage: ^2.0.2
   csv: ^5.0.0
   settings_ui: ^1.0.0
+  logger: ^1.0.0
 
 dev_dependencies:
   flutter_test:
